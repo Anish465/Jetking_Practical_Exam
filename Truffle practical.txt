@@ -1,0 +1,22 @@
+1. What is truffle ?
+
+Truffle is a developmnet environment based on Ethereum Blockchain used to develop Dapps. It is used in testing framework and Asset pipeline for Ethereum's BLockchain.
+A truffle box provides useful boilerplate code with which you can directly start desiging your Dapp. Depending on the requirements of your project , you can choose truffle box.
+
+
+2. What is Ganache?
+
+Ganache is a personal Ethereum Blockchain used to test smart contracts where you can deploy contracts,develop applications, run tests and perform other tasks without any cost.
+
+3. Demonstrate the installation process of Truffle suite 
+
+First we have to make sure we have node js installed on our computer and after that we have to pass the comand "npm install -g truffle" . After the installation is complete we have to 
+check the truffle version, for checking the truffle version we have to pass command "truffle --version".
+
+
+4.Demonstrate the process of unboxing metacoin project and explore the project structure by explaining the items briefly.  
+
+To create a truffle project we have to pass the command "truffle unbox metacoin", After unboxing the project files such as Contracts, Migration, Test and truffle config file
+is imported from the online library. After that we have to install Ganache and then we have to edit the code in truffle config.js on the line module.exports we have to 
+change the port id and match it with Ganache. Then we have to pass the coomand "truffle migrate". 
+ 
